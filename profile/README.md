@@ -17,7 +17,7 @@ As technology improves, people tend to stay in front of computers or laptops for
 Created using Tensorflow and Scikit-learn, our machine learning team developed 3 models:
 
 - **Body classifier** - Uses _Convolutional Neural Network_ (CNN) to determine the user's body class
-- **Activities recommendation** - Uses _Decision Tree_ to recommend activites based on the intensity
+- **Activities recommendation** - Uses _Random Forest_ to recommend activites based on the intensity
 - **Food recommendation** - Uses _K-Nearest Neighbors_ (KNN) to recommend meals based on required calories and body state
 
 ### Cloud Computing
@@ -37,6 +37,14 @@ The deployment uses Google Cloud Platform (GCP) with these services:
 ### Mobile Development
 
 Our mobile development team created an android application consisting of these features:
+
+- Welcome page
+- Register page
+- Login page
+- Home page
+- Profile page
+- Body classifier page
+- Food and activity recommendation page
 
 ## Development process
 
