@@ -12,7 +12,7 @@ As technology improves, people tend to stay in front of computers or laptops for
 2. [RoadToFit Backend](https://github.com/RoadToFit/RoadtoFit-be)
 3. [RoadToFit Mobile App](https://github.com/RoadToFit/RoadtoFit-MD)
 
-## Machine Learning
+### Machine Learning
 
 Created using Tensorflow and Scikit-learn, our machine learning team developed 3 models:
 
@@ -20,7 +20,7 @@ Created using Tensorflow and Scikit-learn, our machine learning team developed 3
 - **Activities recommendation** - Uses _Decision Tree_ to recommend activites based on the intensity
 - **Food recommendation** - Uses _K-Nearest Neighbors_ (KNN) to recommend meals based on required calories and body state
 
-## Cloud Computing
+### Cloud Computing
 
 Our cloud computing team developed 2 separate backends with different purpose:
 
@@ -34,7 +34,43 @@ The deployment uses Google Cloud Platform (GCP) with these services:
 - **Google Compute Engine** - Used to host our SQL database solution
 - **Artifact Registry** - Used in combination with Github Action for our CI/CD pipeline
 
-## Mobile Development
+### Mobile Development
+
+Our mobile development team created an android application consisting of these features:
+
+## Development process
+
+Our development process is divided into each team:
+
+### Machine Learning
+
+In order to create the machine learning model, our team followed these steps:
+
+1. Choose the appropriate model to do the prediction
+2. Find the correct dataset to train the model
+3. Train the model and test the prediction result
+4. Generate pre-processing step for the input
+5. Export the model into a binary file (e.g. pickle or joblib), ready to be loaded by the cloud computing team
+
+### Cloud Computing
+
+In order to create and deploy the backend service, our team followed these steps:
+
+1. Choose the appropriate technology stack to use, in our case, NodeJS Express and Python FastAPI
+2. Develop an API service for both consumer and machine learning backend
+3. Choose cloud computing services to use within Google Cloud Platform
+4. Create a CI/CD pipeline for smoother deployment process
+5. Test the deployment result
+6. Notify mobile development team of the deployed API service
+
+### Mobile Development
+
+In order to create the android mobile application, our team followed these steps:
+
+1. Design the UI/UX and map out the features required
+2. Develop each page according to the design
+3. Integrate the application with the deployed backend service
+4. Test the mobile application
 
 ## Created By
 
